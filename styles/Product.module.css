@@ -1,0 +1,57 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: center;
+}
+
+.phantom {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    width: 40em;
+    position: relative;
+    
+}
+
+
+.discoverbtn {
+    width: 10em;
+    height: 3em;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+
+  .text {
+    margin-bottom: -1em;
+    font-weight: 100;
+    
+  }
+
+  .title {
+    font-size: 25px;
+
+  }
+
+  .groupdescription {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+  }
+
+
+  .discoverbtn:hover {
+    width: 10em;
+    height: 3em;
+    background-color: transparent;
+    color: gray;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid gray;
+    transition: 1s;
+  }
